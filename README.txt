@@ -1,3 +1,7 @@
+Portfolio Website created by Tijmen Stor
+All credits are shown below. I edited the original website, but I do not own anything.
+
+
 THEME: Law - Free Bootstrap 4 Theme
 AUTHOR: ProBootstrap.com
 LICENSE: Under Creative Commons 3.0 (probootstrap.com/license)
