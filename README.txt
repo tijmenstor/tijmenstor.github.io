@@ -1,4 +1,4 @@
-Portfolio Website created by Tijmen Stor
+Portfolio Website created by Tijmen Stor.
 All credits are shown below. I edited the original website, but I do not own anything.
 
 
