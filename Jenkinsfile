@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'docker service update portfolio-website'            
+                sh 'docker service update --force portfolio-website'            
             }
         }
     }
