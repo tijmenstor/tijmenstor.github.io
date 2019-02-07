@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'docker build -t tijmen34/portfoliowebsite:lts'
+                sh 'docker build -t tijmen34/portfoliowebsite:lts .'
             }
         }
         stage('Push Image') {
