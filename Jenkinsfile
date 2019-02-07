@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'docker service create --name=portfolio-website -d -p 5000:8080 --replicas=2 tijmen34/portfoliowebsite:lts'            
+                sh 'docker service update portfolio-website'            
             }
         }
     }
