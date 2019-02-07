@@ -9,9 +9,9 @@ node('swarm-build-agent') {
         app = docker.build("tijmen34/portfoliowebsite")   
     }
     stage('Push Image') {
-        docker.withRegistry('https://registry.hub.docker.com', 'tijmen34-dockerhub-creds') {
-            app.push('$env.BUILD_NUMBER')
-            app.push('lts')
+        docker.withRegistry('https://registry.hub.docker.com', 'tijmen34-dockerhub-creds') { tijmen34-dockerhub-creds
+            app.push("$env.BUILD_NUMBER")
+            app.push("lts")
         }
     }
     stage('Deploy') {
