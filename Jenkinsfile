@@ -1,21 +1,16 @@
-pipeline {
-    agent { node { label 'swarm-build-agent' } }
+node('swarm-build-agent') {
+    def app
     
-    stages {
-        stage('Build') {
-            steps {
-                sh 'docker build -t tijmen34/portfoliowebsite:lts .'
-            }
+    stage('Build') {
+        app = docker.build("tijmen34/portfoliowebsite")   
+    }
+    stage('Push Image') {
+        docker.withRegistry('https://registry.hub.docker.com', 'tijmen34-dockerhub.creds') {
+            app.push('$env.BUILD_NUMBER')
+            app.push('lts')
         }
-        stage('Push Image') {
-            steps {
-                sh 'docker push tijmen34/portfoliowebsite:lts'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                sh 'docker service update --force portfolio-website'            
-            }
-        }
+    }
+    stage('Deploy') {
+         sh 'docker service update --force portfolio-website'  
     }
 }
