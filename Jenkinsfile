@@ -6,7 +6,7 @@ node('swarm-build-agent') {
     }
     
     stage('Build') {
-        app = docker.build("tijmen34/portfoliowebsite")   
+        app = docker.build("tijmen34/portfolio-website")   
     }
     stage('Push Image') {
         docker.withRegistry('https://registry.hub.docker.com', 'tijmen34-dockerhub-creds') {
@@ -15,6 +15,6 @@ node('swarm-build-agent') {
         }
     }
     stage('Deploy') {
-         sh 'docker service update --force portfolio-website'  
+        sh "docker service update --image tijmen34/portfolio-website:${env.BUILD_NUMBER} portfolio-website"
     }
 }
