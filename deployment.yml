@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tijmen-dev-deployment
+  namespace: tijmen
+spec:
+  selector:
+    matchLabels:
+      app: tijmen-dev
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: tijmen-dev
+    spec:
+      containers:
+      - name: tijmen-dev
+        image: gcr.io/PROJECT_ID/IMAGE:TAG
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            cpu: 100m
+          limits:
+            cpu: 100m
