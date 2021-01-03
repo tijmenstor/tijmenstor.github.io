@@ -1,0 +1,148 @@
+
+body {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 0 10px;
+  font: 18px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #444;
+}
+
+h1,h2,h3 {
+  line-height: 1.2;
+}
+
+h3 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li, p {
+  font-size: medium;
+}
+
+.list-align-right {
+  text-align: right; 
+  direction: rtl;
+}
+
+.inner-list-text {
+  list-style: none;
+  font-weight: lighter;
+}
+
+.list-top-margin {
+  margin-top: 15px;
+}
+
+span {
+  font-weight: lighter;
+  font-size: smaller;
+  vertical-align: middle;
+}
+
+.headline {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  margin: 2px;
+  flex: 65%;
+}
+
+.right {
+  margin: 2px;
+  flex: 35%;
+}
+
+.center-img-col {
+  align-self: center;
+  text-align: center;
+}
+
+.contact-me {
+  align-self: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.icon {
+  color: #444;
+}
+
+ul#contact-ul {
+  display: flex;
+  align-items: stretch; /* Default */
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+li#contact-li {
+  display: block;
+  flex: 0 1 auto; /* Default */
+  list-style-type: none;
+}
+
+.img {
+  max-width: 75%;
+  max-height: 75%;
+  border-radius: 4px;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  li {
+    text-align: center;
+  }
+
+  .list-align-right {
+    text-align: center; 
+    direction: initial;
+  }
+
+  .row {
+    flex-direction: column-reverse;
+  }
+
+  .contact-me {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  ul {
+    padding-inline-start: 0px;
+  }
+
+  span {
+    font-size: x-small;
+    display:block;
+  }
+  
+  .img {
+    max-width: 60%;
+  }
+
+  .intro-text {
+    text-align: center;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: white;
+    background: #444;
+  }
+
+  .icon {
+    color: white;
+  }
+}
