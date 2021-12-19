@@ -1,11 +1,11 @@
-title: Tijmen Stor - Student and DevOps Engineer
+title: Tijmen Stor - Student Software Engineering
 description: >-
   Portfolio website of Tijmen Stor
 author: Tijmen Stor
 baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: Tijmen34
-email: tijmen.stor@outlook.com
+email: me@tijmen.dev
 instagram_username: tijmen_075
 
 exclude:

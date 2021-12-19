@@ -1,0 +1,13 @@
+data:
+  - job: DevOps Engineer/Software Engineer Mentor
+    company: Albert Heijn Tech Labs
+    time-span: 2018-present
+    description: Working on various projects such as QR code generating and Robot Delivery. Also mentoring Software Engineering students
+  - job: Software Engineering Graduate
+    company: Albert Heijn Tech
+    time-span: 2020-2021
+    description: Worked on graduation thesis regarding ChatOps and MTTR, finished with a 7
+  - job: Software Engineering Intern
+    company: Albert Heijn Online Labs
+    time-span: 2018
+    description: Worked as an intern on various innovative projects (smart locks, delivery payments, collaborative grocery list making)
