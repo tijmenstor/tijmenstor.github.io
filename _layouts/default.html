@@ -16,9 +16,9 @@
       <div class="left">
         <p class="intro-text">
           I am Tijmen, a Software Engineering student from Amsterdam! 
-          Besides finishing my Bachelor and Pre-Master, I also work at Albert Heijn Tech. 
-          As a DevOps Engineer in the Labs innovation department, I mentor interns and work on the DevOps infrastructure and projects.
-          Working with tools such as GitHub Actions, Jenkins, Kubernetes and languages such as Java/Kotlin and Go.
+          Besides finishing my Bachelor, I also work at AH IT EEP.
+          As a DevSecOps Engineer, I am currently working on enabling engineers to have the best developing experience possible.
+          Tools I am currently working with are GitHub Actions, Docker, ArgoCD, and Kubernetes/Rancher.
         </p>
       </div>
       <div class="right center-img-col">
@@ -37,8 +37,8 @@
     <h3>Education</h3>
     <ul>
       {% for item in site.data.education.data %}
-      <li class="list-top-margin list-align-right outer-list-text">{{ item.study }}, {{ item.school }}, {{ item.place }} <span>{{ item.time-span }}</span></li>
-      <li class="inner-list-text list-align-right">{{ item.description }}</li>
+      <li class="list-top-margin outer-list-text">{{ item.study }}, {{ item.school }}, {{ item.place }} <span>{{ item.time-span }}</span></li>
+      <li class="inner-list-text">{{ item.description }}</li>
       {% endfor %}
     </ul>    
     <h3>Want to get in touch?</h3>
@@ -52,10 +52,7 @@
         </li>
         <li>
           <a href="mailto:{{ site.email }}"><i class="fas fa-2x fa-envelope icon"></i></a>
-        </li>
-        <li>
-          <a target="_blank" rel="noreferrer noopener" href="https://www.instagram.com/{{ site.instagram_username }}"><i class="fab fa-2x fa-instagram icon"></i></a>
-        </li>        
+        </li>  
       </ul>
     </div>
 </body>

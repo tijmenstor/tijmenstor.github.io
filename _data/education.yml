@@ -1,14 +1,14 @@
 data:
-  - study: Master Software Engineering
-    school: University of Amsterdam
-    place: Amsterdam
-    time-span: 2021-present
-    description: Working on Pre-Master
-  - study: HBO Software Engineering
-    school: Amsterdam University of Applied Sciences
+  - study: Software Engineering
+    school: AUAS
     place: Amsterdam
     time-span: 2016-present
     description: Finishing my final courses
+  - study: Master Software Engineering
+    school: University of Amsterdam
+    place: Amsterdam
+    time-span: 2021-2022
+    description: Stopped during pre-master
   - study: HAVO
     school: Bertrand Russell College
     place: Krommenie

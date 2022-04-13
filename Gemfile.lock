@@ -213,6 +213,8 @@ GEM
       jekyll-seo-tag (~> 2.1)
     minitest (5.14.2)
     multipart-post (2.1.1)
+    nokogiri (1.12.5-arm64-darwin)
+      racc (~> 1.4)
     nokogiri (1.12.5-x64-mingw32)
       racc (~> 1.4)
     nokogiri (1.12.5-x86_64-linux)
@@ -262,6 +264,7 @@ GEM
     zeitwerk (2.4.2)
 
 PLATFORMS
+  arm64-darwin-21
   x64-mingw32
   x86_64-linux
 
@@ -273,4 +276,4 @@ DEPENDENCIES
   wdm (~> 0.1.1)
 
 BUNDLED WITH
-   2.2.16
+   2.3.11

@@ -1,8 +1,12 @@
 data:
+  - job: DevSecOps Engineer 
+    company: AH IT Engineering Enablement Platform (EEP)
+    time-span: 2022-present
+    description: Delivering developers company-wide the best engineering experience
   - job: DevOps Engineer/Software Engineer Mentor
     company: Albert Heijn Tech Labs
-    time-span: 2018-present
-    description: Working on various projects such as QR code generating and Robot Delivery. Also mentoring Software Engineering students
+    time-span: 2018-2022
+    description: Worked on various projects such as QR code generating and Robot Delivery. Also mentoring Software Engineering students
   - job: Software Engineering Graduate
     company: Albert Heijn Tech
     time-span: 2020-2021
