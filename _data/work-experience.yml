@@ -1,17 +1,17 @@
 data:
-  - job: DevSecOps Engineer 
-    company: AH IT Engineering Enablement Platform (EEP)
+  - job: DevSecOps / Release Engineer 
+    company: Albert Heijn
     time-span: 2022-present
     description: Delivering developers company-wide the best engineering experience
-  - job: DevOps Engineer/Software Engineer Mentor
-    company: Albert Heijn Tech Labs
+  - job: DevOps Engineer / Mentor
+    company: Albert Heijn
     time-span: 2018-2022
-    description: Worked on various projects such as QR code generating and Robot Delivery. Also mentoring Software Engineering students
+    description: Worked on various projects such as QR code generating and Robot Delivery, as well as mentoring Software Engineering students
   - job: Software Engineering Graduate
-    company: Albert Heijn Tech
+    company: Albert Heijn
     time-span: 2020-2021
-    description: Worked on graduation thesis regarding ChatOps and MTTR, finished with a 7
+    description: Worked on graduation thesis regarding ChatOps and MTTR
   - job: Software Engineering Intern
-    company: Albert Heijn Online Labs
+    company: Albert Heijn
     time-span: 2018
     description: Worked as an intern on various innovative projects (smart locks, delivery payments, collaborative grocery list making)

@@ -1,9 +1,9 @@
-title: Tijmen Stor - Student Software Engineering
+title: Tijmen Stor - DevSecOps Engineer @ Albert Heijn
 description: >-
   Portfolio website of Tijmen Stor
 author: Tijmen Stor
 baseurl: ""
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://tijmen.dev" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: Tijmen34
 instagram_username: tijmen_075
 obfuscatedMail: javascript:location='mailto:\u0074\u0069\u006a\u006d\u0065\u006e\u0040\u0073\u0074\u006f\u0072\u002e\u0064\u0065\u0076';void 0
