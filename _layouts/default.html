@@ -15,10 +15,7 @@
     <div class="row">
       <div class="left">
         <p class="intro-text">
-          I am Tijmen, a DevSecOps/Release Engineer from around Amsterdam!
-          Currently working at Albert Heijn as a DevSecOps/Release Engineer.
-          Working with tools such as GitHub Actions, Docker, ArgoCD and Kubernetes.
-          Also have experience building software with Java/Kotlin, TypeScript and Go.
+          {{ site.data.intro.text}}
         </p>
       </div>
       <div class="right center-img-col">
@@ -29,7 +26,7 @@
     <h3>Experience</h3>
     <ul>
       {% for item in site.data.work-experience.data %}
-      <li class="list-top-margin outer-list-text">{{ item.job }}, {{ item.company }} <span>{{ item.time-span }}</span></li>
+      <li class="list-top-margin outer-list-text">{{ item.job }}, <a href="{{ item.website }}" target="_blank">{{ item.company }}</a> <span>{{ item.time-span }}</span></li>
       <li class="inner-list-text">{{ item.description }}</li>
       {% endfor %}
     </ul>
@@ -45,13 +42,13 @@
     <div class="contact-me">
       <ul id="contact-ul">
         <li>
-          <a target="_blank" rel="noreferrer noopener" href="https://github.com/{{ site.github_username }}"><i class="fab fa-2x fa-github icon"></i></a>
+          <a target="_blank" rel="noreferrer noopener" href="{{ site.github_url }}"><i class="fab fa-2x fa-github icon"></i></a>
         </li>
         <li>
-          <a target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com/in/tijmen-stor/"><i class="fab fa-2x fa-linkedin icon"></i></a>
+          <a target="_blank" rel="noreferrer noopener" href="{{ site.linkedin_url }}"><i class="fab fa-2x fa-linkedin icon"></i></a>
         </li>
         <li>
-          <a href="{{ site.obfuscatedMail }}"><i class="fas fa-2x fa-envelope icon"></i></a>
+          <a href="{{ site.obfuscated_mail }}"><i class="fas fa-2x fa-envelope icon"></i></a>
         </li>  
       </ul>
     </div>

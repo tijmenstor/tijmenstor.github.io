@@ -1,10 +1,10 @@
 source "https://rubygems.org"
 gem "github-pages", group: :jekyll_plugins
-gem "nokogiri", ">= 1.11.0.rc4"
+gem "nokogiri", ">= 1.16.7"
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
-  gem "tzinfo", "~> 1.2"
+  gem "tzinfo", "~> 2.0.6"
   gem "tzinfo-data"
 end
 
