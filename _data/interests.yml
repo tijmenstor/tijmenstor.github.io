@@ -1,0 +1,5 @@
+data:
+  - category: Sports
+    items: ["Tennis", "Padel", "Table Tennis", "Squash", "Kickboxing", "Running"]
+  - category: Gaming
+    items: ["League of Legends", "Teamfight Tactics", "Call of Duty"]

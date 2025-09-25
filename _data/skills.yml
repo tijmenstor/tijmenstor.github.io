@@ -1,0 +1,5 @@
+data:
+  - category: Languages
+    items: ["Golang", "JavaScript", "TypeScript", "Bash", "Python"]
+  - category: Tooling
+    items: ["Kubernetes", "GitHub (Actions)", "Azure", "Docker", "ArgoCD", "Helm", "Terraform"]

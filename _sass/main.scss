@@ -104,6 +104,43 @@ li#contact-li {
   border-radius: 4px;
 }
 
+.skills-interests-row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.skills-column, .interests-column {
+  flex: 1;
+}
+
+.skills-container {
+  margin-bottom: 0;
+}
+
+.skill-category {
+  margin-bottom: 8px;
+  font-size: medium;
+}
+
+.skill-items {
+  font-weight: normal;
+}
+
+.interests-container {
+  margin-bottom: 0;
+}
+
+.interest-category {
+  margin-bottom: 8px;
+  font-size: medium;
+}
+
+.interest-items {
+  font-weight: normal;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -145,6 +182,11 @@ a {
 
   .intro-text {
     text-align: center;
+  }
+
+  .skills-interests-row {
+    flex-direction: column;
+    gap: 10px;
   }
 }
 

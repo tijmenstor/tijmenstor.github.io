@@ -23,6 +23,32 @@
       </div>
     </div>
 
+    <div class="skills-interests-row">
+      <div class="skills-column">
+        <h3>Skills</h3>
+        <div class="skills-container">
+          {% for skill_category in site.data.skills.data %}
+          <div class="skill-category">
+            <strong>{{ skill_category.category }}:</strong>
+            <span class="skill-items">{{ skill_category.items | join: ", " }}</span>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      
+      <div class="interests-column">
+        <h3>Interests</h3>
+        <div class="interests-container">
+          {% for interest_category in site.data.interests.data %}
+          <div class="interest-category">
+            <strong>{{ interest_category.category }}:</strong>
+            <span class="interest-items">{{ interest_category.items | join: ", " }}</span>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
     <h3>Experience</h3>
     <ul>
       {% for item in site.data.work-experience.data %}

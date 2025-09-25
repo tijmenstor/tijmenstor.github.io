@@ -1,9 +1,19 @@
 data:
   - job: DevOps Engineer
+    company: Staatsolie Maatschappij Suriname N.V.
+    time-span: 2025-present
+    description: Working on improving and modernizing the cloud infrastructure.
+    website: https://www.staatsolie.com/
+  - job: DevOps Engineer
     company: Devleaps
     time-span: 2024-present
     description: Working as a consultant, making developers happy, one company at a time.
     website: https://devleaps.nl
+  - job: DevOps Engineer
+    company: Sense Company
+    time-span: 2025
+    description: Worked on DevOps lifecycle, from local development to production.
+    website: https://sense-company.com
   - job: Release Engineer
     company: Vandebron (via Devleaps)
     time-span: 2024
@@ -19,13 +29,13 @@ data:
     time-span: 2018-2022
     description: Worked on various projects such as QR code generating and Robot Delivery, as well as mentoring Software Engineering students
     website: https://ah.nl
-  - job: Software Engineering Graduate
-    company: Albert Heijn
-    time-span: 2020-2021
-    description: Worked on graduation thesis regarding ChatOps and MTTR
-    website: https://ah.nl
-  - job: Software Engineering Intern
-    company: Albert Heijn
-    time-span: 2018
-    description: Worked as an intern on various innovative projects (smart locks, delivery payments, collaborative grocery list making)
-    website: https://ah.nl
+  # - job: Software Engineering Graduate
+  #   company: Albert Heijn
+  #   time-span: 2020-2021
+  #   description: Worked on graduation thesis regarding ChatOps and MTTR
+  #   website: https://ah.nl
+  # - job: Software Engineering Intern
+  #   company: Albert Heijn
+  #   time-span: 2018
+  #   description: Worked as an intern on various innovative projects (smart locks, delivery payments, collaborative grocery list making)
+  #   website: https://ah.nl
